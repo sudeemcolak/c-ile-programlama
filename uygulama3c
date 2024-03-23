@@ -1,0 +1,18 @@
+//1'den 10'a kadar olan sayıları yazdırır
+
+#include <stdio.h>
+
+int main () {
+
+int x,i;
+x=1;
+
+for (i = 1; i <= 10; i++) {
+
+printf ("%d\n" , x);
+
+x = x + 1;
+
+}
+    return 0;
+}
